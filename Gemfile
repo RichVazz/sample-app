@@ -32,6 +32,9 @@ gem 'jbuilder', '~> 2.5'
 
 #framework to make css easier -RV
 gem 'bootstrap-sass', '3.3.6'
+#add cript 
+gem 'bcrypt', '3.1.11'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
