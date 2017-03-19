@@ -14,6 +14,10 @@
 
   get '/users', to: 'users#show'
 
+  post '/signup', to: 'users#create'
+
+
+
   resources :users
 
   
