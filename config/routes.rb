@@ -13,9 +13,11 @@
   #users
   get '/signup', to: 'users#new'
 
-  get '/users', to: 'users#show'
+  get '/users', to: 'users#index'
 
   post '/signup', to: 'users#create'
+
+
 
   resources :users
 
