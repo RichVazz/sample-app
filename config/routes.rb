@@ -17,8 +17,6 @@
 
   post '/signup', to: 'users#create'
 
-
-
   resources :users
 
   #login
@@ -27,6 +25,9 @@
   post '/login', to: 'sessions#create'
 
   delete '/logout', to: 'sessions#destroy'
+
+  #account activation
+  resources :account_activations, only: [:edit]
 
 
   
